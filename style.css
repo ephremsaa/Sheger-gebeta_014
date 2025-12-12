@@ -1,4 +1,4 @@
-/* Reset and Base Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -25,7 +25,6 @@ body {
     background-image: linear-gradient(to bottom, var(--background), #F5E6D3);
 }
 
-/* Header */
 header {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: var(--white);
@@ -61,7 +60,6 @@ header p {
     opacity: 0.9;
 }
 
-/* Navigation */
 nav {
     background-color: var(--white);
     padding: 1rem 0;
@@ -106,7 +104,6 @@ nav a:hover::after {
     width: 80%;
 }
 
-/* Main Layout */
 main {
     max-width: 1200px;
     margin: 2rem auto;
@@ -135,7 +132,6 @@ h2 {
     display: inline-block;
 }
 
-/* Table Styles */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -168,7 +164,6 @@ tr:hover {
     transform: scale(1.01);
 }
 
-/* Form */
 form {
     max-width: 800px;
     margin: 0 auto;
@@ -242,7 +237,6 @@ input[type="reset"]:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Video Section */
 #video-reviews {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -280,7 +274,6 @@ article p {
     color: var(--text-light);
 }
 
-/* Footer */
 footer {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: var(--white);
@@ -300,7 +293,6 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
